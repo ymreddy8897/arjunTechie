@@ -10,6 +10,6 @@ public class DockerController {
 
     @GetMapping
     public String helloWorld(){
-        return "Hello docker learning course";
+        return "Hello docker learning course FREE in JAVATECHIE";
     }
 }
