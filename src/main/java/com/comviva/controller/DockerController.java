@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
 
     @GetMapping
-    public void helloWorld(){
+    public String helloWorld(){
 
         return "Hello docker learning course FREE in JAVATECHIE";
     }
